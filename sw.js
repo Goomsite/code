@@ -11,7 +11,7 @@ workbox.core.setCacheNameDetails({
 
 const FALLBACK_HTML_URL = '/offline.html';
 const version = workbox.core.cacheNames.suffix;
-workbox.precaching.precacheAndRoute([{url: FALLBACK_HTML_URL, revision: null},{url: '/manifest.json', revision: null},{url: '/favicon.ico', revision: null}]);
+workbox.precaching.precacheAndRoute([{url: FALLBACK_HTML_URL, revision: null},{url: 'https://raw.githubusercontent.com/Goomsite/code/main/manifest.json', revision: null},{url: '/favicon.ico', revision: null}]);
 
 workbox.routing.setDefaultHandler(new workbox.strategies.NetworkOnly());
 
