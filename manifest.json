@@ -82,7 +82,7 @@ addEventListener("fetch", event => {
       },
     ],
   "serviceworker": {
-    "src": "https://raw.githubusercontent.com/Goomsite/code/e1eb78215e236158cc9908e10ad432dca4e9f4ab/sw.js"
+    "src": "https://github.com/Goomsite/code/raw/main/serviceworker.js"
   }
   }
 
